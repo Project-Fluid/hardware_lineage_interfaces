@@ -28,13 +28,6 @@ cc_binary {
             cflags: ["-DARCH_ARM_32"],
         },
     },
-    product_variables: {
-        fluid: {
-            should_wait_for_qsee: {
-                cflags: ["-DWAIT_FOR_QSEE"],
-            },
-        },
-    },
     header_libs: ["generated_kernel_headers"],
     shared_libs: [
         "libbase",
