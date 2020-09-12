@@ -29,7 +29,7 @@ cc_binary {
         },
     },
     product_variables: {
-        lineage: {
+        fluid: {
             should_wait_for_qsee: {
                 cflags: ["-DWAIT_FOR_QSEE"],
             },
